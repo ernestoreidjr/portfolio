@@ -1,0 +1,415 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#home {
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+.main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(21,25,29,0.3);
+}
+
+
+.main .h1200{
+    font-weight: 200;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.main .h1800{
+    font-weight: 800;
+    font-size: 40px;  
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.main p {
+    opacity: .5;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    letter-spacing: .2rem;
+    line-height: 1.7;
+}
+
+
+/* porfolio */
+
+#portfolio {
+    /* height: 100vh; */
+    background: #212529;
+}
+
+.title {
+    height: 20vh ;
+}
+
+#portfolio h2{
+    color: white;
+    font-weight: 200;
+    font-size: 30px;
+    text-align: center;
+}
+
+#portfolio span{
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.features img{
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin: 5px auto;
+
+}
+
+#portfolio h2{
+    color: white;
+    font-weight: 200;
+    text-align: center;
+}
+
+#portfolio h2 span{
+    color: white;
+    font-weight: 800;
+    text-align: center;
+}
+
+.features h4{
+    color: white;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.features p{
+    color: white;
+    font-weight: 200;
+    font-size: 12px;
+    text-align: center;
+    opacity: .25;
+
+}
+
+
+/* resume */
+
+#resume {
+    /* height: 100vh; */
+    background: #212529;
+    padding-bottom: 5rem;
+}
+
+#resume h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+}
+
+#resume span{
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#resume h3{
+    font-size: 24px;
+    font-weight: 200;
+    color: white;
+    padding: 0 30px;
+    margin: 2rem 0 3rem 0;
+}
+
+
+.resume-items {
+    padding: 30px;
+    background: #333333;
+    margin-bottom: 1rem;
+    border-radius: 7px;
+}
+
+.resume-items i{
+    font: 12px;
+    color: white;
+}
+
+.resume-items h4 {
+    color: #74FF72;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 10px;
+}
+
+.resume-items p {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    opacity: .5;
+}
+
+/* aboutMe */
+
+#aboutMe {
+    background: #212529;
+}
+
+/* .aboutMe {
+    height: 20vh;
+} */
+
+#aboutMe img{
+    max-width: 100%;
+    height: auto;
+    padding-top: 3rem;
+}
+
+
+#aboutMe h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 200;
+    padding: 1rem 5px;
+}
+
+#aboutMe span{
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#aboutMe p{
+    color: white;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 300;
+    opacity: .5;
+    padding: 0 5px 10px 5px;
+}
+
+#aboutMe button{
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 12.5px 25px;
+    letter-spacing: 2px;
+    background: #74FF72;
+    margin: 10px 5px 20px 5px;
+    border: 0px;
+    border-radius: 20px;
+}
+
+#aboutMe button.cv{
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 12.5px 25px;
+    letter-spacing: 2px;
+    background: #6C757D;
+    /* margin: 20px 0px 20px -10px; */
+    border: 0px;
+    border-radius: 20px;
+}
+
+
+/* services */
+
+#services {
+    /* height: 80vh; */
+    background: #212529;
+    padding-bottom: 3rem;
+
+}
+
+
+#services h2{
+    color: white;
+    font-weight: 200;
+    font-size: 30px;
+    text-align: center;
+}
+
+#services span{
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+#services i {
+    display: block;
+    color: #74FF72;
+    font-size: 40px;
+    text-align: center;
+
+    margin: 25px 0;
+}
+
+
+
+#services h3 {
+    color: white;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#services p{
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    opacity: .5;
+    padding: 0 25px;
+    text-align: justify;
+}
+
+#services .services-item {
+    background: #333333;
+    width: 300px;
+    padding: 20px;
+    margin: 5px;
+}
+
+
+/* get in touch */
+
+#getInTouch {
+    /* height: 100vh; */
+    background: #212529;
+    padding-bottom: 2rem;
+}
+
+#getInTouch h2{
+    color: white;
+    font-weight: 200;
+    font-size: 30px;
+    text-align: center;
+}
+
+#getInTouch span{
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#getInTouch h3 {
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+    /* padding: 0 30px; */
+    margin-bottom: 25px;
+    margin-left: 5px;
+}
+
+#getInTouch h4 {
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+    /* padding: 0 30px; */
+    padding-top: 50px;
+    margin-bottom: 25px;
+    margin-left: 5px;
+}
+
+#getInTouch p {
+    font-size: 16px;
+    font-weight: 200;
+    color: #74FF72;
+    margin-bottom: 1px;
+    margin-left: 5px;
+
+
+}
+
+#getInTouch p.myInfo {
+    font-size: 16px;
+    font-weight: 200;
+    color: white;
+    opacity: .5;
+    margin-top: -25px;
+    margin-bottom: 25px;
+
+}
+
+#getInTouch button{
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px 30px;
+    letter-spacing: 2px;
+    background: #74FF72;
+    margin: 25px 0px;
+    border: 0px;
+    border-radius: 30px;
+}
+
+#name.form-control {
+    border: none;
+    background: #333333;
+    color: white;
+
+}
+
+#email.form-control {
+    border: none;
+    background: #333333;
+    color: white;
+
+}
+
+#phone.form-control {
+    border: none;
+    background: #333333;
+    color: white;
+
+}
+
+textArea.form-control {
+    border: none;
+    background: #333333;
+    color: white;
+
+}
+
+
+/* footer */
+
+#footer {
+    /* height: 10vh; */
+    background: #212529;
+
+}
+
+#footer a {
+    text-decoration: none;
+}
+
+
+#footer i {
+    display: block;
+    margin: 0 auto;
+    color: #74FF72;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem 0;
+}
+

@@ -1,0 +1,744 @@
+
+/* Ipad, Tablets */
+@media (max-width: 320px) {
+
+    .main .h1200{
+        font-weight: 200;
+        font-size: 32px;
+        text-align: center;
+        color: white;
+    }
+    
+    .main .h1800{
+        font-weight: 800;
+        font-size: 32px;  
+        text-align: center;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    .main p {
+        opacity: .5;
+        font-size: 12px;
+        text-align: center;
+        color: white;
+        letter-spacing: .2rem;
+        line-height: 1.7;
+    }
+
+    .features img{
+        display: block;
+        width: 250px;
+        height: 250px;
+        margin: 5px auto;
+    
+    }
+
+    #portfolio h2 {
+        color: white;
+        font-size: 24px;
+        font-weight: 200;
+        text-align: center;
+    }
+
+    #portfolio h2 span{
+        color: white;
+        font-size: 24px;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    #resume h2{
+        color: white;
+        font-size: 24px;
+        font-weight: 200;
+        text-align: center;
+    }
+    
+    #resume span{
+        color: white;
+        font-size: 24px;
+        font-weight: 800;
+    }
+
+    #resume h3{
+        font-size: 20px;
+        font-weight: 200;
+        color: white;
+        padding: 0 30px;
+        margin: 2rem 0 3rem 0;
+    }
+
+    #aboutMe h2{
+        color: white;
+        font-size: 24px;
+        font-weight: 200;
+        padding: 1rem 5px;
+    }
+    
+    #aboutMe span{
+        color: white;
+        font-size: 24px;
+        font-weight: 800;
+    }
+
+    #services h2{
+        color: white;
+        font-weight: 200;
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    #services span{
+        color: white;
+        font-size: 24px;
+        font-weight: 800;
+    }
+
+    #getInTouch h2{
+        color: white;
+        font-weight: 200;
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    #getInTouch span{
+        color: white;
+        font-size: 24px;
+        font-weight: 800;
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.8px) {
+  
+    /* home */
+
+    .main .h1200{
+        font-weight: 200;
+        font-size: 70px;
+        text-align: center;
+        color: white;
+    }
+    
+    .main .h1800{
+        font-weight: 800;
+        font-size: 70px;
+        text-align: center;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    /* portfolio */
+
+    .features img{
+        display: block;
+        width: 225px;
+        height: 225px;
+        margin: 5px auto;
+    
+    }
+
+    #portfolio h2 {
+        color: white;
+        font-size: 36px;
+        font-weight: 200;
+        text-align: center;
+    }
+
+    #portfolio h2 span{
+        color: white;
+        font-size: 36px;
+        font-weight: 800;
+        text-align: center;
+    }
+
+
+    /* resume */
+
+    #resume h2{
+        color: white;
+        font-size: 36px;
+        font-weight: 200;
+        text-align: center;
+    }
+    
+    #resume span{
+        color: white;
+        font-size: 36px;
+        font-weight: 800;
+    }
+
+    .resume-items {
+        padding: 30px 0;
+        background: #333333;
+        margin-bottom: 1rem;
+        border-radius: 7px;
+    }
+
+    #rezume:nth-child(1){order: 1;}
+    #rezume:nth-child(2){order: 3;}
+    #rezume:nth-child(3){order: 5;}
+    #rezume:nth-child(4){order: 7;}
+    #rezume:nth-child(5){order: 9;}
+    #rezume:nth-child(6){order: 2;}
+    #rezume:nth-child(7){order: 4;}
+    #rezume:nth-child(8){order: 6;}
+    #rezume:nth-child(9){order: 8;}
+    #rezume:nth-child(10){order: 10;}
+
+    /* about me */
+
+    #aboutMe h2{
+        color: white;
+        font-size: 36px;
+        font-weight: 200;
+        padding: 1rem 5px;
+    }
+    
+    #aboutMe span{
+        color: white;
+        font-size: 36px;
+        font-weight: 800;
+    }
+
+    #aboutMe button{
+        font-size: 12px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 12.5px 25px;
+        letter-spacing: 2px;
+        background: #74FF72;
+        margin: 10px 5px 5rem 5px;
+        border: 0px;
+        border-radius: 20px;
+    }
+    
+    #aboutMe button.cv{
+        font-size: 12px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 12.5px 25px;
+        letter-spacing: 2px;
+        background: #6C757D;
+        border: 0px;
+        border-radius: 20px;
+    }
+
+
+    /* services */
+
+    #services h2{
+        color: white;
+        font-weight: 200;
+        font-size: 36px;
+        text-align: center;
+    }
+    
+    #services span{
+        color: white;
+        font-size: 36px;
+        font-weight: 800;
+    }
+
+
+
+    #services .services-item {
+        background: #333333;
+        width: 230px;
+        padding: 0rem;
+        margin: 0;
+    }
+
+
+    /* get in touch */
+
+    #getInTouch h4 {
+        font-size: 28px;
+        font-weight: 200;
+        color: white;
+        /* padding: 0 30px; */
+        padding-top: 0px;
+        /* margin-bottom: 25px; */
+        margin-left: 5px;
+    }
+
+    /* footer */
+
+    #getInTouch h2{
+        color: white;
+        font-weight: 200;
+        font-size: 36px;
+        text-align: center;
+    }
+    
+    #getInTouch span{
+        color: white;
+        font-size: 36px;
+        font-weight: 800;
+    }
+
+    #footer {
+        background: #212529;
+        /* height: 10vh; */
+    
+    }
+
+    #footer i {
+        display: block;
+        color: #74FF72;
+        font-size: 2rem;
+        text-align: center;
+        padding: 1.5rem 0;
+    }
+
+    #getInTouch h3 {
+        font-size: 20px;
+        font-weight: 200;
+        color: white;
+        /* padding: 0 30px; */
+        margin-bottom: 25px;
+    }
+
+    #getInTouch h4 {
+        font-size: 20px;
+        font-weight: 200;
+        color: white;
+        /* padding: 0 30px; */
+        /* padding-top: 50px; */
+        /* margin-bottom: 25px; */
+        /* margin-left: 5px; */
+    }
+
+
+
+}   
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+    /* home */
+
+    .main .h1200{
+        font-weight: 200;
+        font-size: 70px;
+        text-align: center;
+        color: white;
+    }
+    
+    .main .h1800{
+        font-weight: 800;
+        font-size: 70px;
+        text-align: center;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    /* portfolio */
+
+    .features img{
+        display: block;
+        width: 325px;
+        height: 325px;
+        margin: 5px auto;
+    
+    }
+
+    #portfolio h2 {
+        color: white;
+        font-size: 40px;
+        font-weight: 200;
+        text-align: center;
+    }
+
+    #portfolio h2 span{
+        color: white;
+        font-size: 40px;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .features p{
+        color: white;
+        font-weight: 200;
+        font-size: 16px;
+        text-align: center;
+        opacity: .25;
+    
+    }
+
+
+    /* resume */
+
+    #resume h2{
+        color: white;
+        font-size: 40px;
+        font-weight: 200;
+        text-align: center;
+    }
+    
+    #resume span{
+        color: white;
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    .resume-items {
+        padding: 30px 0;
+        background: #333333;
+        margin-bottom: 1rem;
+        border-radius: 7px;
+    }
+
+    #rezume:nth-child(1){order: 1;}
+    #rezume:nth-child(2){order: 3;}
+    #rezume:nth-child(3){order: 5;}
+    #rezume:nth-child(4){order: 7;}
+    #rezume:nth-child(5){order: 9;}
+    #rezume:nth-child(6){order: 2;}
+    #rezume:nth-child(7){order: 4;}
+    #rezume:nth-child(8){order: 6;}
+    #rezume:nth-child(9){order: 8;}
+    #rezume:nth-child(10){order: 10;}
+
+
+
+    /* about me */
+
+    #aboutMe h2{
+        color: white;
+        font-size: 40px;
+        font-weight: 200;
+        padding: 1rem 5px;
+    }
+    
+    #aboutMe span{
+        color: white;
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    #aboutMe button{
+        font-size: 12px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 12.5px 25px;
+        letter-spacing: 2px;
+        background: #74FF72;
+        margin: 10px 5px 5rem 5px;
+        border: 0px;
+        border-radius: 20px;
+    }
+    
+    #aboutMe button.cv{
+        font-size: 12px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 12.5px 25px;
+        letter-spacing: 2px;
+        background: #6C757D;
+        border: 0px;
+        border-radius: 20px;
+    }
+
+
+    /* services */
+
+    #services h2{
+        color: white;
+        font-weight: 200;
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    #services span{
+        color: white;
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+
+
+    #services .services-item {
+        background: #333333;
+        /* width: 225px; */
+        padding: 1rem;
+        margin: 0;
+    }
+
+
+    /* get in touch */
+
+    #getInTouch h4 {
+        font-size: 28px;
+        font-weight: 200;
+        color: white;
+        /* padding: 0 30px; */
+        padding-top: 0px;
+        /* margin-bottom: 25px; */
+        margin-left: 5px;
+    }
+
+    /* footer */
+
+    #getInTouch h2{
+        color: white;
+        font-weight: 200;
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    #getInTouch span{
+        color: white;
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    #footer {
+        background: #212529;
+        /* height: 10vh; */
+    
+    }
+
+    #footer i {
+        display: block;
+        color: #74FF72;
+        font-size: 2rem;
+        text-align: center;
+        padding: 2rem 0;
+    }
+
+    #getInTouch h3 {
+        font-size: 20px;
+        font-weight: 200;
+        color: white;
+        /* padding: 0 30px; */
+        margin-bottom: 25px;
+    }
+
+    #getInTouch h4 {
+        font-size: 20px;
+        font-weight: 200;
+        color: white;
+        /* padding: 0 30px; */
+        /* padding-top: 50px; */
+        /* margin-bottom: 25px; */
+        /* margin-left: 5px; */
+    }
+
+
+
+}   
+
+
+
+@media (min-width: 1200px) {
+  
+    /* home */
+
+    .main .h1200{
+        font-weight: 200;
+        font-size: 70px;
+        text-align: center;
+        color: white;
+    }
+    
+    .main .h1800{
+        font-weight: 800;
+        font-size: 70px;
+        text-align: center;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    /* portfolio */
+
+    .features img{
+        display: block;
+        width: 400px;
+        height: 400px;
+        margin: 5px auto;
+    
+    }
+
+    #portfolio h2 {
+        color: white;
+        font-size: 40px;
+        font-weight: 200;
+        text-align: center;
+    }
+
+    #portfolio h2 span{
+        color: white;
+        font-size: 40px;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .features p{
+        color: white;
+        font-weight: 200;
+        font-size: 16px;
+        text-align: center;
+        opacity: .25;
+    
+    }
+
+
+    /* resume */
+
+    #resume h2{
+        color: white;
+        font-size: 40px;
+        font-weight: 200;
+        text-align: center;
+    }
+    
+    #resume span{
+        color: white;
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    .resume-items {
+        padding: 30px 0;
+        background: #333333;
+        margin-bottom: 1rem;
+        border-radius: 7px;
+    }
+
+    #rezume:nth-child(1){order: 1;}
+    #rezume:nth-child(2){order: 3;}
+    #rezume:nth-child(3){order: 5;}
+    #rezume:nth-child(4){order: 7;}
+    #rezume:nth-child(5){order: 9;}
+    #rezume:nth-child(6){order: 2;}
+    #rezume:nth-child(7){order: 4;}
+    #rezume:nth-child(8){order: 6;}
+    #rezume:nth-child(9){order: 8;}
+    #rezume:nth-child(10){order: 10;}
+
+
+
+    /* about me */
+
+    #aboutMe h2{
+        color: white;
+        font-size: 40px;
+        font-weight: 200;
+        padding: 1rem 5px;
+    }
+    
+    #aboutMe span{
+        color: white;
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    #aboutMe button{
+        font-size: 12px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 12.5px 25px;
+        letter-spacing: 2px;
+        background: #74FF72;
+        margin: 10px 5px 5rem 5px;
+        border: 0px;
+        border-radius: 20px;
+    }
+    
+    #aboutMe button.cv{
+        font-size: 12px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 12.5px 25px;
+        letter-spacing: 2px;
+        background: #6C757D;
+        border: 0px;
+        border-radius: 20px;
+    }
+
+
+    /* services */
+
+    #services h2{
+        color: white;
+        font-weight: 200;
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    #services span{
+        color: white;
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+
+
+    #services .services-item {
+        background: #333333;
+        /* width: 225px; */
+        padding: 1rem;
+        margin: 0;
+    }
+
+
+    /* get in touch */
+
+    #getInTouch h4 {
+        font-size: 28px;
+        font-weight: 200;
+        color: white;
+        /* padding: 0 30px; */
+        padding-top: 0px;
+        /* margin-bottom: 25px; */
+        margin-left: 5px;
+    }
+
+    /* footer */
+
+    #getInTouch h2{
+        color: white;
+        font-weight: 200;
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    #getInTouch span{
+        color: white;
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    #footer {
+        background: #212529;
+        /* height: 10vh; */
+    
+    }
+
+    #footer i {
+        display: block;
+        color: #74FF72;
+        font-size: 2.5rem;
+        text-align: center;
+        padding: 2rem 0;
+    }
+
+    #getInTouch h3 {
+        font-size: 20px;
+        font-weight: 200;
+        color: white;
+        /* padding: 0 30px; */
+        margin-bottom: 25px;
+    }
+
+    #getInTouch h4 {
+        font-size: 20px;
+        font-weight: 200;
+        color: white;
+        /* padding: 0 30px; */
+        /* padding-top: 50px; */
+        /* margin-bottom: 25px; */
+        /* margin-left: 5px; */
+    }
+
+
+
+}   
