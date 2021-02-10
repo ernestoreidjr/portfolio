@@ -115,7 +115,7 @@
   
     /* home */
 
-    .main .h1200{
+    .main .h1200 {
         font-weight: 200;
         font-size: 70px;
         text-align: center;
@@ -134,8 +134,8 @@
 
     .features img{
         display: block;
-        width: 225px;
-        height: 225px;
+        width: 250px;
+        height: 250px;
         margin: 5px auto;
     
     }
@@ -209,7 +209,7 @@
         padding: 12.5px 25px;
         letter-spacing: 2px;
         background: #74FF72;
-        margin: 10px 5px 5rem 5px;
+        margin: 5px 2px 1rem 2px;
         border: 0px;
         border-radius: 20px;
     }
@@ -319,15 +319,7 @@
   
     /* home */
 
-    #destopHide {
-        display: none;
-    }   
-
-    #mobileHide {
-        display: block;
-    }
-
-    .main .h1200{
+    .main .h1200 {
         font-weight: 200;
         font-size: 70px;
         text-align: center;
@@ -542,15 +534,7 @@
   
     /* home */
 
-    #destopHide {
-        display: none;
-    }   
-
-    #mobileHide {
-        display: block;
-    }
-
-    .main .h1200{
+   .main .h1200 {
         font-weight: 200;
         font-size: 70px;
         text-align: center;
