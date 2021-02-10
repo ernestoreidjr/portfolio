@@ -319,6 +319,14 @@
   
     /* home */
 
+    #destopHide {
+        display: none;
+    }   
+
+    #mobileHide {
+        display: block;
+    }
+
     .main .h1200{
         font-weight: 200;
         font-size: 70px;
@@ -332,7 +340,7 @@
         text-align: center;
         color: white;
         margin-bottom: 20px;
-    }
+    }   
 
     /* portfolio */
 
@@ -533,6 +541,14 @@
 @media (min-width: 1200px) {
   
     /* home */
+
+    #destopHide {
+        display: none;
+    }   
+
+    #mobileHide {
+        display: block;
+    }
 
     .main .h1200{
         font-weight: 200;
